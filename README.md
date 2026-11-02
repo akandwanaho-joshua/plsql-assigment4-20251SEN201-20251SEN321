@@ -12,6 +12,7 @@
   Student name           Student ID
   ---------------------- -------------
   DUSHIMIMANA EMMANUEL   20251SEN201
+  
   AKANDWANAHO JOSHUA     20251SEN321
 
 ## 1. Project Description
@@ -140,7 +141,7 @@ our responsibility for reviewing and verifying the project.
 
 ## 11. GitHub Repository
 
-https://github.com/dushimimanaemmy/plsql-assignment4--20251SEN201---20251SEN321
 
+https://github.com/akandwanaho-joshua/plsql-assigment4-20251SEN201-20251SEN321/edit/main/README.md
 Both group members should make meaningful contributions and commits to
 the repository as required by the assignment.
