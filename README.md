@@ -96,6 +96,12 @@ Do not rerun scripts that insert existing primary keys or apply grade
 changes without resetting the test data. Follow the comments and
 transaction instructions in the SQL scripts.
 
+## if you want to check same output we did go in folder called screenshot 
+look everything we did from we started assignment up to end such as create tables,
+insert sample data, compiled object, grade update and audit, record and explicity, 
+functions success operations , collections and bulk processing all above 
+it about output and their query we did 
+
 ## 7. PL/SQL Concepts Demonstrated
 
 -   **Records:** user-defined records and `%ROWTYPE`.
