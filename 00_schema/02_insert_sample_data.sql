@@ -1,0 +1,11 @@
+INSERT INTO a4_students(student_id,full_name,email) VALUES(101,'Alice Uwase','alice@example.edu');
+INSERT INTO a4_students(student_id,full_name,email) VALUES(102,'Bob Mugisha','bob@example.edu');
+INSERT INTO a4_students(student_id,full_name,email) VALUES(103,'Claire Ineza','claire@example.edu');
+INSERT INTO a4_courses VALUES(10,'Database Development',3);
+INSERT INTO a4_courses VALUES(20,'Software Engineering',4);
+INSERT INTO a4_courses VALUES(30,'Data Structures',3);
+INSERT INTO a4_enrollments VALUES(1001,101,10,85);
+INSERT INTO a4_enrollments VALUES(1002,101,20,90);
+INSERT INTO a4_enrollments VALUES(1003,102,10,72);
+INSERT INTO a4_enrollments VALUES(1004,103,30,NULL);
+COMMIT;

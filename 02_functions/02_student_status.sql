@@ -1,0 +1,10 @@
+CREATE OR REPLACE FUNCTION a4_student_status(p_student_id IN NUMBER) RETURN VARCHAR2 IS
+ v_avg NUMBER;
+BEGIN
+ v_avg:=a4_student_average(p_student_id);
+ IF v_avg IS NULL THEN RETURN 'NOT GRADED';
+ ELSIF v_avg>=50 THEN RETURN 'PASS';
+ ELSE RETURN 'FAIL'; END IF;
+EXCEPTION WHEN OTHERS THEN RAISE;
+END;
+/
